@@ -2,7 +2,7 @@
 
 # 🧮 Calculator App
 
-A simple and intuitive calculator built with modern web technologies. It includes support for light and dark themes, basic arithmetic operations, responsive design, and keyboard input support.
+A simple and intuitive calculator built with modern web technologies. It includes support for light and dark themes, basic arithmetic operations, and responsive design.
 
 ## ✨ Features
 ✅ Basic arithmetic operations: Addition, Subtraction, Multiplication, Division

@@ -1,9 +1,9 @@
-import { useState} from 'react'
+import {useState} from 'react'
 import './App.css'
 
 function App() {
   const [input, setInput] = useState('');
-  const [rawInput, setRawInput] = useState('')
+  const [rawInput, setRawInput] = useState('');
   const [darkMode, setDarkMode] = useState(false);
 
   const formatDisplay = (value) => {
@@ -61,8 +61,12 @@ function App() {
       setRawInput(result);
       setInput(formatDisplay(result));
     } catch {
-      setRawInput('')
-      setInput('');
+      setRawInput('');
+      if (input === ''){
+        setInput('');
+      } else{
+      setInput('Error');
+      }
     }
   };
 
